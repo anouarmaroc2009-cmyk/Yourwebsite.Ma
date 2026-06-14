@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YourWebsite.Ma — Web Designer Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- ========== CURSOR ========== -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">Your<span>Website</span>.Ma</a>
+      <div class="nav-toggle" id="navToggle">
+        <span></span><span></span><span></span>
+      </div>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero" class="active">Accueil</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="hero">
+    <canvas id="particles-canvas"></canvas>
+    <div class="container hero-content">
+      <span class="hero-badge">Web Designer & Creative Developer</span>
+      <h1 class="hero-title">
+        <span class="line">Nous créons des</span>
+        <span class="line accent">expériences web</span>
+        <span class="line">mémorables</span>
+      </h1>
+      <p class="hero-desc">Design moderne, animations fluides et performance — donnez vie à votre vision avec YourWebsite.Ma</p>
+      <div class="hero-btns">
+        <a href="#portfolio" class="btn btn-primary">Voir nos travaux</a>
+        <a href="#contact" class="btn btn-outline">Nous contacter</a>
+      </div>
+      <div class="hero-social">
+        <a href="https://www.instagram.com/yourwebsite.ma/?hl=fr" target="_blank" rel="noopener" class="social-link" aria-label="Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Défiler</span>
+      <div class="mouse"><div class="mouse-wheel"></div></div>
+    </div>
+  </section>
+
+  <!-- ========== SERVICES ========== -->
+  <section class="section services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Ce que nous faisons</span>
+        <h2 class="section-title">Des services <span class="gradient-text">sur mesure</span></h2>
+        <p class="section-desc">Du concept à la réalisation, nous vous accompagnons à chaque étape</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal" style="--i:0">
+          <div class="service-icon"><i class="fas fa-palette"></i></div>
+          <h3>Design UI/UX</h3>
+          <p>Interfaces intuitives et esthétiques qui captivent vos utilisateurs dès le premier clic.</p>
+        </div>
+        <div class="service-card reveal" style="--i:1">
+          <div class="service-icon"><i class="fas fa-code"></i></div>
+          <h3>Développement Web</h3>
+          <p>Sites responsive ultra-rapides avec les technologies les plus modernes.</p>
+        </div>
+        <div class="service-card reveal" style="--i:2">
+          <div class="service-icon"><i class="fas fa-rocket"></i></div>
+          <h3>Branding Digital</h3>
+          <p>Identité visuelle complète qui raconte votre histoire et marque les esprits.</p>
+        </div>
+        <div class="service-card reveal" style="--i:3">
+          <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Applications Web</h3>
+          <p>Solutions interactives et dynamiques pensées pour le mobile d'abord.</p>
+        </div>
+        <div class="service-card reveal" style="--i:4">
+          <div class="service-icon"><i class="fas fa-search"></i></div>
+          <h3>Référencement SEO</h3>
+          <p>Optimisation pour les moteurs de recherche afin de maximiser votre visibilité.</p>
+        </div>
+        <div class="service-card reveal" style="--i:5">
+          <div class="service-icon"><i class="fas fa-handshake"></i></div>
+          <h3>Consulting & Conseil</h3>
+          <p>Stratégie digitale personnalisée pour atteindre vos objectifs business.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PORTFOLIO ========== -->
+  <section class="section portfolio" id="portfolio">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Nos réalisations</span>
+        <h2 class="section-title">Projets <span class="gradient-text">récents</span></h2>
+        <p class="section-desc">Chaque projet est une nouvelle histoire que nous aidons à écrire</p>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-card reveal" style="--i:0">
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #6c5ce7, #a29bfe)">
+              <i class="fas fa-store"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="portfolio-cat">E-commerce</span>
+              <h4>ShopFlow</h4>
+              <p>Plateforme e-commerce complète avec dashboard analytics</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" style="--i:1">
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #00cec9, #81ecec)">
+              <i class="fas fa-chart-line"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="portfolio-cat">Dashboard</span>
+              <h4>DataViz Pro</h4>
+              <p>Dashboard interactif pour visualisation de données en temps réel</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" style="--i:2">
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #fd79a8, #e84393)">
+              <i class="fas fa-mobile-alt"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="portfolio-cat">Application</span>
+              <h4>FitTrack</h4>
+              <p>App de fitness avec suivi personnalisé et gamification</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" style="--i:3">
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #fdcb6e, #e17055)">
+              <i class="fas fa-building"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="portfolio-cat">Corporate</span>
+              <h4>Nexus Corp</h4>
+              <p>Refonte complète du site institutionnel avec animations premium</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" style="--i:4">
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #55efc4, #00b894)">
+              <i class="fas fa-leaf"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="portfolio-cat">Landing Page</span>
+              <h4>GreenEarth</h4>
+              <p>Landing page immersive pour une ONG environnementale</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-card reveal" style="--i:5">
+          <div class="portfolio-img">
+            <div class="portfolio-placeholder" style="background: linear-gradient(135deg, #74b9ff, #0984e3)">
+              <i class="fas fa-video"></i>
+            </div>
+            <div class="portfolio-overlay">
+              <span class="portfolio-cat">Streaming</span>
+              <h4>MediaHub</h4>
+              <p>Plateforme de streaming vidéo avec recommandations AI</p>
+              <a href="#" class="portfolio-link"><i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-image-frame">
+            <div class="about-image">
+              <i class="fas fa-laptop-code"></i>
+            </div>
+            <div class="about-exp-badge">
+              <span class="exp-number">100+</span>
+              <span>Projets livrés</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <span class="section-tag">Qui sommes-nous</span>
+          <h2 class="section-title">Passionnés par le <span class="gradient-text">design web</span></h2>
+          <p class="about-text">
+            YourWebsite.Ma est une agence de web design basée au Maroc. Nous croyons qu'un site web
+            doit être plus qu'un simple outil — il doit être une expérience. Notre approche allie
+            créativité, technologie de pointe et une compréhension profonde des besoins de nos clients.
+          </p>
+          <div class="skills">
+            <div class="skill reveal">
+              <div class="skill-info">
+                <span>UI/UX Design</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width:95%"></div></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-info">
+                <span>Développement Front-end</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-info">
+                <span>Branding & Identité</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+            </div>
+            <div class="skill reveal">
+              <div class="skill-info">
+                <span>SEO & Performance</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== STATS ========== -->
+  <section class="stats">
+    <div class="container stat-grid">
+      <div class="stat-item reveal"><span class="stat-number" data-target="5">0</span><span class="stat-label">Années d'expérience</span></div>
+      <div class="stat-item reveal"><span class="stat-number" data-target="100">0</span><span class="stat-label">Projets réalisés</span></div>
+      <div class="stat-item reveal"><span class="stat-number" data-target="50">0</span><span class="stat-label">Clients satisfaits</span></div>
+      <div class="stat-item reveal"><span class="stat-number" data-target="15">0</span><span class="stat-label">Prix & distinctions</span></div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">Parlons de votre projet</span>
+        <h2 class="section-title">Travaillons <span class="gradient-text">ensemble</span></h2>
+        <p class="section-desc">Vous avez une idée ? Nous avons les compétences pour la concrétiser.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Suivez-nous sur Instagram</h3>
+          <p>Découvrez nos dernières créations, coulisses et inspirations quotidiennes.</p>
+          <a href="https://www.instagram.com/yourwebsite.ma/?hl=fr" target="_blank" rel="noopener" class="instagram-btn">
+            <i class="fab fa-instagram"></i>
+            <span>@yourwebsite.ma</span>
+          </a>
+          <div class="contact-details">
+            <div class="contact-detail">
+              <i class="fas fa-envelope"></i>
+              <span>contact@yourwebsite.ma</span>
+            </div>
+            <div class="contact-detail">
+              <i class="fas fa-phone"></i>
+              <span>+212 6 00 00 00 00</span>
+            </div>
+            <div class="contact-detail">
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Marrakech, Maroc</span>
+            </div>
+          </div>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Votre nom" required>
+            <span class="form-focus"></span>
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Votre email" required>
+            <span class="form-focus"></span>
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" placeholder="Sujet">
+            <span class="form-focus"></span>
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Votre message" required></textarea>
+            <span class="form-focus"></span>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">
+            <span>Envoyer le message</span>
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="#" class="logo">Your<span>Website</span>.Ma</a>
+        <p>Créateur d'expériences digitales uniques.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#hero">Accueil</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">À propos</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/yourwebsite.ma/?hl=fr" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        <a href="#" aria-label="Behance"><i class="fab fa-behance"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 YourWebsite.Ma — Tous droits réservés</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
